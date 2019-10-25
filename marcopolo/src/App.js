@@ -1,22 +1,26 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
 //import './App.css';
-import {usePosition} from "./components/location";
 
-export const App = () => {
-  const {latitude, longitude, error} = usePosition();
-
-  return (
-      <div className="App">
-
-
-        <code>
-          latitude: {latitude}<br/>
-          longitude: {longitude}<br/>
-          error: {error}
-        </code>
-      </div>
-  );
-};
+import { Header } from './components/Header/Header';
+import { Home } from './components/Home/Home';
+ 
+class App extends Component {
+  
+  
+  render() {
+    
+    return (
+      <>
+        <Header />
+        <main>
+          <Switch>
+            <Route exact path="/" component={Home} />
+          </Switch>
+        </main>
+      </>
+    );
+  }
+}
 
 export default App;
