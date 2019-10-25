@@ -6,8 +6,8 @@ const Schema = mongoose.Schema;
 const DataSchema = new Schema(
   {
     id: Number,
-    latitude: Latitude,
-    longitude: Longitude
+    latitude: Number,
+    longitude: Number
   },
   { timestamps: true }
 );
