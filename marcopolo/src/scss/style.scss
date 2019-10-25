@@ -1,26 +1,12 @@
-.App {
-  text-align: center;
-}
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 
-.App-logo {
-  height: 40vmin;
-}
+// Variables
+@import 'variables';
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+// Bootstrap
+//@import '../../node_modules/bootstrap/scss/bootstrap';
+@import '../../node_modules/bootstrap/scss/bootstrap';
 
-.App-link {
-  color: #09d3ac;
-}
 
-*{
-  color: red;
-}
+*{color:red;}

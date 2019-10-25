@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
-import './App.css';
+//import './App.css';
 import {usePosition} from "./components/location";
 
 export const App = () => {
