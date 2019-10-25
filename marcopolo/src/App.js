@@ -8,8 +8,6 @@ export const App = () => {
 
   return (
       <div className="App">
-
-
         <code>
           latitude: {latitude}<br/>
           longitude: {longitude}<br/>
