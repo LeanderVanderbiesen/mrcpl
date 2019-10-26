@@ -13,7 +13,7 @@ const ViewLocation =()=> {
             <code>
                 latitude: {latitude}<br />
                 longitude: {longitude}<br />
-                error: {error}
+                {/* error: {error} */}
             </code>
         </div>
     );

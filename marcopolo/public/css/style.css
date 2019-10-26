@@ -10,10 +10,10 @@
 header h1 {
   margin: auto; }
 
-header .close h1 {
+header .close h2 {
   font-size: 4em;
   vertical-align: middle;
-  margin-right: 20px;
+  margin-right: 40px;
   color: #3490dc; }
 
 /*!
@@ -7560,6 +7560,7 @@ header {
   color: #3490dc;
   display: -webkit-box;
   display: flex;
+  text-align: end;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
           flex-direction: row; }
@@ -7575,13 +7576,19 @@ header {
   background-image: url("/img/sheepy_home.jpg");
   background-repeat: no-repeat;
   height: 100vh; }
+  .home .close {
+    display: none; }
 
 .sheep {
   background-image: url("/img/sheepy.jpg");
   background-repeat: no-repeat;
   height: 100vh; }
+  .sheep h1 {
+    visibility: hidden; }
 
 .wolf {
   background-image: url("/img/wolfy.jpg");
   background-repeat: no-repeat;
   height: 100vh; }
+  .wolf h1 {
+    visibility: hidden; }

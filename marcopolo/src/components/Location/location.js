@@ -9,6 +9,25 @@ export const usePosition = () => {
             latitude: coords.latitude,
             longitude: coords.longitude,
         });
+        console.log('latitude:', coords.latitude,
+            'longitude:' ,coords.longitude);
+        
+        fetch('url', {
+            method:'post', 
+            body:JSON.stringify(
+                {
+                    latitude:1, longitude:2
+                }
+            ),
+            headers:{
+                'Accept' : 'application/json',
+                'Content-Type': 'application/json',
+            }
+        }).then(function(response){
+            response.json().then(function(resp){
+                console.log(resp)
+            })
+        })
     };
 
     const onError = (error) => {

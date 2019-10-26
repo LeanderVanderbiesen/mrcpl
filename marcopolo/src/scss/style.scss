@@ -25,6 +25,7 @@ header {
     padding: 30px 0;
     color: $blue;
     display: flex;
+    text-align: end;
     flex-direction: row;
 }
 
@@ -43,15 +44,28 @@ box-shadow: 10px 10px 16px -12px rgba(0,0,0,0.75);
     background-image: url('/img/sheepy_home.jpg');
     background-repeat:no-repeat ;
     height: 100vh;
+
+    .close {
+       display: none;
+    }
 }
 
 .sheep{
     background-image: url('/img/sheepy.jpg');
     background-repeat:no-repeat ;
     height: 100vh;
+
+    h1 {
+       visibility: hidden;
+    }
+
+
 }
 .wolf{
     background-image: url('/img/wolfy.jpg');
     background-repeat:no-repeat ;
     height: 100vh;
+    h1 {
+       visibility: hidden;
+    }
 }
