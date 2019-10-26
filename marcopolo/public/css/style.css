@@ -7568,7 +7568,8 @@ header {
   padding: 20px 80px;
   border-radius: 40px;
   margin: 40px;
-  display: block; }
+  display: block;
+  box-shadow: 10px 10px 16px -12px rgba(0, 0, 0, 0.75); }
 
 .home {
   background-image: url("/img/sheepy_home.jpg");
