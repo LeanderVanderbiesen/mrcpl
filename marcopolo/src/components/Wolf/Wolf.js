@@ -14,7 +14,7 @@ export const Wolf = () => (
 
         <ViewLocation></ViewLocation>
 
-        <Link to={`/`} className="cta btn btn-primary">Tikkie!</Link>
+        <Link to={`/`} className="ctaa cta btn btn-primary">Tikkie!</Link>
 
     </div>
     </div>

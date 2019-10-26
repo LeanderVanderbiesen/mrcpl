@@ -7572,6 +7572,9 @@ header {
   display: block;
   box-shadow: 10px 10px 16px -12px rgba(0, 0, 0, 0.75); }
 
+.ctaa {
+  display: none; }
+
 .home {
   background-image: url("/img/sheepy_home.jpg");
   background-repeat: no-repeat;
