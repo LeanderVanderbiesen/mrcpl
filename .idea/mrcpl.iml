@@ -6,5 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="nobelprizes" />
     <orderEntry type="module" module-name="marcopolo_api" />
+    <orderEntry type="module" module-name="opdracht_p1" />
   </component>
 </module>

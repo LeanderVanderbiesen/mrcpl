@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/marcopolo_api/.idea/marcopolo_api.iml" filepath="$PROJECT_DIR$/marcopolo_api/.idea/marcopolo_api.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/mrcpl.iml" filepath="$PROJECT_DIR$/.idea/mrcpl.iml" />
       <module fileurl="file://$PROJECT_DIR$/../FE_BeroepsOpdracht/reactApp/nobelprizes/.idea/nobelprizes.iml" filepath="$PROJECT_DIR$/../FE_BeroepsOpdracht/reactApp/nobelprizes/.idea/nobelprizes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Laravel/opdracht-p1-LeanderVanderbiesen/opdracht_p1/.idea/opdracht_p1.iml" filepath="$PROJECT_DIR$/../Laravel/opdracht-p1-LeanderVanderbiesen/opdracht_p1/.idea/opdracht_p1.iml" />
     </modules>
   </component>
 </project>

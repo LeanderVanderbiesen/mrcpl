@@ -17,6 +17,7 @@ class CreateLocationsTable extends Migration
             $table->bigIncrements('id');
             $table->integer('latitude');
             $table->integer('longitude');
+            $table->string('user_ip')->nullable();
             $table->timestamps();
         });
     }
