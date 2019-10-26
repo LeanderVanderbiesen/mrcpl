@@ -64,15 +64,16 @@ router.delete('/deleteData', (req, res) => {
 router.post('/putData', (req, res) => {
     let data = new Data();
 
-    const { id, message } = req.body;
+    const { id, Latitude, Longitude } = req.body;
 
-    if ((!id && id !== 0) || !message) {
+    if ((!id && id !== 0) || !Latitude && !Longitude) {
         return res.json({
             success: false,
             error: 'INVALID INPUTS',
         });
     }
-    data.message = message;
+    data.Latitude = Latitude;
+    data.Longitude = Longitude;
     data.id = id;
     data.save((err) => {
         if (err) return res.json({ success: false, error: err });

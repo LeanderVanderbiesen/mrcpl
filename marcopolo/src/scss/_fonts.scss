@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Fugaz+One&display=swap');
+
+.wrapper {
+    font-family: 'Fugaz One', cursive;
+    line-height: 1em;
+    color: $blue;
+}
+
+
+.location {
+    color: $pink;
+}
+
+header{
+    h1{
+        margin: auto;
+    }
+ .close h1{
+    font-size: 4em;
+    vertical-align: middle;
+    margin-right: 20px;
+    color: $blue;
+}
+}
