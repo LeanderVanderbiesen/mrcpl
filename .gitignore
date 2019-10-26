@@ -899,3 +899,8 @@ marcopolo_backend/node_modules/vary/index.js
 marcopolo_backend/node_modules/vary/LICENSE
 marcopolo_backend/node_modules/vary/package.json
 marcopolo_backend/node_modules/vary/README.md
+marcopolo/public/index.html
+marcopolo/src/App.js
+marcopolo/src/components/location.js
+marcopolo_backend/werkt.js
+package-lock.json

@@ -1,12 +1,57 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
 
 // Variables
 @import 'variables';
+@import 'fonts';
 
 // Bootstrap
 //@import '../../node_modules/bootstrap/scss/bootstrap';
 @import '../../node_modules/bootstrap/scss/bootstrap';
 
 
-*{color:red;}
+.wrapper{
+    max-width: 500px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #aaa;
+    text-align: center;
+}
+
+.location {
+    margin: 100px 0;
+}
+
+header {
+    padding: 30px 0;
+    color: $blue;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.cta {
+    padding: 20px 80px;
+    border-radius: 40px;
+    margin: 40px;
+    display: block;
+    -webkit-box-shadow: 10px 10px 16px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 16px -12px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 16px -12px rgba(0,0,0,0.75);
+}
+
+.home{
+    background-image: url('/img/sheepy_home.jpg');
+    background-repeat:no-repeat ;
+    height: 100vh;
+}
+
+.sheep{
+    background-image: url('/img/sheepy.jpg');
+    background-repeat:no-repeat ;
+    height: 100vh;
+}
+.wolf{
+    background-image: url('/img/wolfy.jpg');
+    background-repeat:no-repeat ;
+    height: 100vh;
+}
