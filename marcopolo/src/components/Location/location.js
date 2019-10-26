@@ -15,6 +15,13 @@ export const usePosition = () => {
         setError(error.message);
     };
 
+    // setInterval(() => {
+    //     setPosition({
+    //         latitude: Math.floor(Math.random() *1000),
+    //         longitude: Math.floor(Math.random() * 1000),
+    //     });
+    // }, 2000);
+
     useEffect(() => {
         const geo = navigator.geolocation;
         if (!geo) {
