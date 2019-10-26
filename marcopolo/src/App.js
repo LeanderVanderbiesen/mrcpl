@@ -1,6 +1,6 @@
 // /client/App.js
 import React, { Component } from 'react';
-
+import { Link, Switch, Route } from 'react-router-dom';
 
 
 import { Home } from './components/Home/Home';
