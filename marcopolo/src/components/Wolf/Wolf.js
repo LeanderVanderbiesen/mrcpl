@@ -10,11 +10,11 @@ export const Wolf = () => (
     <div className="content">
 
         <p>Je bent een WOLF,</p>
-        <p>opzoek naar een schaapje</p>
+        <p>op zoek naar een schaapje</p>
 
         <ViewLocation></ViewLocation>
 
-        <Link to={`/`} className="cta btn btn-primary">Tikkie!</Link>
+        <Link to={`/`} className="ctaa cta btn btn-primary">Tikkie!</Link>
 
     </div>
     </div>

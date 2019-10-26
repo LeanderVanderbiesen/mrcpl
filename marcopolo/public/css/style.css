@@ -7553,7 +7553,7 @@ a.text-dark:hover, a.text-dark:focus {
   text-align: center; }
 
 .location {
-  margin: 100px 0; }
+  margin: 10% 0; }
 
 header {
   padding: 30px 0;
@@ -7572,16 +7572,21 @@ header {
   display: block;
   box-shadow: 10px 10px 16px -12px rgba(0, 0, 0, 0.75); }
 
+.ctaa {
+  display: none; }
+
 .home {
   background-image: url("/img/sheepy_home.jpg");
   background-repeat: no-repeat;
-  height: 100vh; }
+  height: 100vh;
+  background-size: cover; }
   .home .close {
     display: none; }
 
 .sheep {
   background-image: url("/img/sheepy.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh; }
   .sheep h1 {
     visibility: hidden; }
@@ -7589,6 +7594,7 @@ header {
 .wolf {
   background-image: url("/img/wolfy.jpg");
   background-repeat: no-repeat;
-  height: 100vh; }
+  height: 100vh;
+  background-size: cover; }
   .wolf h1 {
     visibility: hidden; }

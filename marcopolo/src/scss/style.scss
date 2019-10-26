@@ -18,7 +18,7 @@
 }
 
 .location {
-    margin: 100px 0;
+    margin: 10% 0;
 }
 
 header {
@@ -40,10 +40,15 @@ header {
 box-shadow: 10px 10px 16px -12px rgba(0,0,0,0.75);
 }
 
+.ctaa{
+    display: none;
+}
+
 .home{
     background-image: url('/img/sheepy_home.jpg');
     background-repeat:no-repeat ;
     height: 100vh;
+    background-size: cover;
 
     .close {
        display: none;
@@ -53,18 +58,19 @@ box-shadow: 10px 10px 16px -12px rgba(0,0,0,0.75);
 .sheep{
     background-image: url('/img/sheepy.jpg');
     background-repeat:no-repeat ;
+    background-size: cover;
     height: 100vh;
 
     h1 {
        visibility: hidden;
     }
-
-
 }
+
 .wolf{
     background-image: url('/img/wolfy.jpg');
     background-repeat:no-repeat ;
     height: 100vh;
+    background-size: cover;
     h1 {
        visibility: hidden;
     }
