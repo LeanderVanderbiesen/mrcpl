@@ -1,22 +1,26 @@
 import {useState, useEffect} from 'react';
-
+let tableId = null;
 export const usePosition = () => {
     const [position, setPosition] = useState({});
     const [error, setError] = useState(null);
 
     const onChange = ({coords}) => {
+
         setPosition({
             latitude: coords.latitude,
             longitude: coords.longitude,
         });
         console.log('latitude:', coords.latitude,
             'longitude:' ,coords.longitude);
-        
-        fetch('url', {
+
+        let self = this;
+        fetch('http://marcopolo_api.test/api/putData', {
             method:'post', 
             body:JSON.stringify(
                 {
-                    latitude:1, longitude:2
+                    'table_id': tableId,
+                    'latitude': coords.latitude,
+                    'longitude': coords.longitude
                 }
             ),
             headers:{
@@ -25,7 +29,7 @@ export const usePosition = () => {
             }
         }).then(function(response){
             response.json().then(function(resp){
-                console.log(resp)
+                tableId = resp.data;
             })
         })
     };
